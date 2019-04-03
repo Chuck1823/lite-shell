@@ -1,0 +1,26 @@
+Charles Antoine Malenfant (0616332)
+CS444 - Operating Systems
+Shell Assignment
+-----------------------------------
+
+BUGS & POSSIBLE IMPROVEMENTS
+
+- The code itself could be way more organized and structured. I only modified the shell.c file to implement all of the required features and barely wrote any other functions to try and modularize my main() function. In the industry, my code would not look the same. I
+  realize I did this because of the fact that I will probably never re-use this code again in my life. My lack of experience in C was also a contributing factor to the disorganization. Despite all of this, the code is well commented.
+
+- Error-checking might not be at its best throughout the code and could be included more extensively to ensure smooth running of the shell and prevent user-error.
+
+- There might be other issues or bugs with my code that I have not noticed but everything seems to be working flawlessly assuming correct user input.
+
+HOW TO USE
+
+- Clone repository from Github.
+- Type and enter the following command in a Linux shell: $ make clean, to make sure that there are no object files or executables that we do not want still there.
+- Type and enter the following command in a Linux shell: $ make. This will produce an executable for my shell.
+- Run the shell by issuing the following command in a Linux shell: $ ./shell. You should be in the same directory as the directory where the generated shell executable is.
+- Typing the command help will show the shell built-in functions that are available. Any non built-in commands can be executed just as in any other shells.
+- Enjoy :)
+
+NOTES & COMMENTS
+
+- My entire code was written with a Linux OS and is meant to run on this platform.
